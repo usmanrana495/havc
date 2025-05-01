@@ -1,4 +1,57 @@
 {
-  "hero.title": "Stay Cool with ArkdinAir",
-  "hero.subtitle": "Expert Air Conditioning Services You Can Trust"
+  "hero": {
+    "title": "Stay Cool with Rih Al Sharq",
+    "subtitle": "Expert Air Conditioning Services You Can Trust",
+    "button": "Call us"
+  },
+  "about": {
+    "title": "About Us",
+    "description": "We specialize in HVAC solutions for homes and businesses.",
+    "headline":"Turning up the chill factor in your home or office",
+    "details": "Our team offers professional and efficient air conditioning solutions tailored to your needs.",
+    "list":{
+      "ventilation":"Ventilation System Maintenance",
+      "airQuality":"Indoor Air Quality Testing",
+      "consulting":"Cool-Out Consultations"
+    } 
+    
+  },
+  "services": {
+    "title": "Our Services",
+    "acRepair": "AC Repair",
+    "installation": "Installation",
+    "maintenance": "Maintenance",
+    "AC Performance Solutions": "AC Performance Solutions",
+    "Indoor Air Quality Testing": "Indoor Air Quality Testing",
+    "Chill Cool Protection": "Chill Cool Protection",
+    "Where Every Breath Feels Fresh And Cool": "Where Every Breath Feels Fresh And Cool"
+  },
+  "team": {
+    "title": "Meet Our Team",
+    "member1": "Ahmed - Lead Technician",
+    "ourProfessionalExpertTeam": "Our Professional Expert Team"
+  },
+  "testimonials": {
+    "title": "Customer Testimonials",
+    "testimonial1": "Excellent service and very professional staff!",
+    "testimonial2": "Quick and efficient cooling system repair. Highly recommend!",
+    "testimonial3": "Our go-to team for all air conditioning maintenance."
+  },
+  "contact": {
+    "title": "Get Premium Air Services From Us!",
+    "name": "Your Name",
+    "email": "Your Email",
+    "message": "Message",
+    "submit": "Submit Request"
+  },
+  "footer": {
+    "about": "We are experts in premium HVAC solutions for residential and commercial spaces.",
+    "services": "Services",
+    "acRepair": "AC Repair",
+    "maintenance": "Maintenance",
+    "installation": "Installation",
+    "newsletter": "Newsletter",
+    "subscribe": "Subscribe to stay updated with our latest offers.",
+    "rights": "All rights reserved."
+  }
 }

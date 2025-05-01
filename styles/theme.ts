@@ -1,19 +1,18 @@
-
+"use client"
 import { createTheme } from '@mui/material/styles';
 
 const theme = createTheme({
-  direction: 'ltr',
+  typography: {
+    fontFamily: 'Roboto, Arial, sans-serif',
+  },
   palette: {
     primary: {
-      main: '#ff6b00'
+      main: '#ff6b00',
     },
     secondary: {
-      main: '#0d1b2a'
-    }
+      main: '#0d1b2a',
+    },
   },
-  typography: {
-    fontFamily: 'Roboto, Arial, sans-serif'
-  }
 });
 
 export default theme;
