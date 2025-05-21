@@ -72,7 +72,36 @@ const HeroBanner = () => {
           color: '#ffffff',
           textShadow: '2px 2px 6px rgba(0, 0, 0, 0.6)',
         }} mb={3}>
-          {t('hero.subtitle')}
+          {t('hero.subtitle').split(/(\d[\d\s]+)/).map((part, index) => 
+            /^\d[\d\s]+$/.test(part) ? (
+              <Box
+                key={index}
+                component="span"
+                sx={{
+                  color: '#FF5722',
+                  fontWeight: 'bold',
+                  backgroundColor: 'rgba(255, 255, 255, 0.95)',
+                  padding: '6px 12px',
+                  borderRadius: '8px',
+                  marginLeft: '8px',
+                  boxShadow: '0 2px 8px rgba(0, 0, 0, 0.2)',
+                  border: '2px solid #FF5722',
+                  fontSize: '1.1em',
+                  letterSpacing: '0.5px',
+                  transition: 'all 0.3s ease',
+                  display: 'inline-block',
+                  '&:hover': {
+                    transform: 'scale(1.05)',
+                    boxShadow: '0 4px 12px rgba(0, 0, 0, 0.3)',
+                    backgroundColor: '#FF5722',
+                    color: '#ffffff'
+                  }
+                }}
+              >
+                {part}
+              </Box>
+            ) : part
+          )}
         </Typography>
         <Button 
           variant="contained" 
@@ -86,7 +115,7 @@ const HeroBanner = () => {
             py: 2,
             px: 4
           }}
-          onClick={() => window.open('https://wa.me/966566139956', '_blank')}
+          onClick={() => window.open('tel:+966566139956', '_blank')}
         >
           {t('hero.button')}
         </Button>

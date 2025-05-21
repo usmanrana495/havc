@@ -11,7 +11,7 @@ const Footer = () => {
       <Container>
         <Grid container spacing={4}>
           <Grid item xs={12} md={4}>
-            <Typography variant="h6">ArkdinAir</Typography>
+            <Typography variant="h6">علي للتبريد Ali Cooling</Typography>
             <Typography variant="body2">
               {t('footer.about')}
             </Typography>
@@ -30,7 +30,7 @@ const Footer = () => {
           </Grid>
         </Grid>
         <Typography variant="body2" align="center" mt={4}>
-          © {new Date().getFullYear()} ArkdinAir. {t('footer.rights')}
+          © {new Date().getFullYear()} علي للتبريد Ali Cooling {t('footer.rights')}
         </Typography>
       </Container>
     </Box>
